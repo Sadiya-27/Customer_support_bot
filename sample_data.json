@@ -1,0 +1,58 @@
+[
+  {
+    "faq_id": { "S": "faq_001" },
+    "question": { "S": "How do I reset my password?" },
+    "answer": { "S": "To reset your password, go to https://example.com/reset and follow the steps. If you have MFA enabled, use your authenticator app." },
+    "intent": { "S": "password_reset" },
+    "keywords": {
+      "L": [
+        { "S": "password" },
+        { "S": "reset" },
+        { "S": "forgot" }
+      ]
+    }
+  },
+  {
+    "faq_id": { "S": "faq_003" },
+    "question": { "S": "Having trouble with email." },
+    "answer": { "S": "If you’re unable to access your email, please check your internet connection and ensure you’re using the correct login credentials. If the issue continues, please contact the IT support team at it-support@example.com." },
+    "intent": { "S": "emailaccess" },
+    "keywords": {
+      "L": [
+        { "S": "email" },
+        { "S": "opening" },
+        { "S": "login" },
+        { "S": "Email" }
+      ]
+    }
+  },
+  {
+    "faq_id": { "S": "faq_wifi_home" },
+    "question": { "S": "My Wi-Fi is not working" },
+    "answer": { "S": "Please restart your home router and check if other devices are connected to your network. If issue persists, contact your ISP." },
+    "intent": { "S": "wifi_issue" },
+    "keywords": {
+      "L": [
+        { "S": "wifi" },
+        { "S": "wi-fi" },
+        { "S": "internet" },
+        { "S": "network" },
+        { "S": "home" }
+      ]
+    }
+  },
+  {
+    "faq_id": { "S": "faq_wifi_office" },
+    "question": { "S": "Office Wi-Fi not connecting" },
+    "answer": { "S": "Please check your office Wi-Fi connection and ensure you’re connected to the correct SSID. If the issue continues, contact IT support." },
+    "intent": { "S": "wifi_issue" },
+    "keywords": {
+      "L": [
+        { "S": "wifi" },
+        { "S": "office" },
+        { "S": "internet" },
+        { "S": "connection" }
+      ]
+    }
+  }
+]
