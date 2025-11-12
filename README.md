@@ -16,7 +16,8 @@ The frontend is hosted as a static web page on Amazon S3 for easy user interacti
 --- 
 
 ## 🏗️ Architecture
-<img width="1536" height="1024" alt="ChatGPT Image Nov 12, 2025, 02_54_34 PM" src="https://github.com/user-attachments/assets/8ae7b768-0ec2-4168-8e60-cbf413fcc9cf" />
+<img width="1536" height="1024" alt="ChatGPT Image Nov 12, 2025, 03_11_36 PM" src="https://github.com/user-attachments/assets/ca0a10b6-897b-42fb-a6a9-baf8a5754258" />
+
 
 Flow:
 1. User sends a message on the web interface.
