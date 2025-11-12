@@ -11,6 +11,8 @@ It serves as the first line of technical support, handling routine IT queries su
 When the chatbot cannot resolve a query, it automatically escalates it to a human IT agent via Amazon SES.
 The frontend is hosted as a static web page on Amazon S3 for easy user interaction.
 
+## Demo Link: https://itservicebot.s3.us-east-1.amazonaws.com/bot.html 
+
 --- 
 
 ## 🏗️ Architecture
@@ -112,11 +114,11 @@ AWS.config.credentials = new AWS.CognitoIdentityCredentials({
 ---
 
 ## 🧩 Features
-✅ Handles common IT queries (Wi-Fi, password, email)
-✅ Automatically escalates unresolved issues to human agents
-✅ Learns and improves using logged queries
-✅ Scalable and cost-effective (serverless)
-✅ Secure AWS-based integration
+- Handles common IT queries (Wi-Fi, password, email)
+- Automatically escalates unresolved issues to human agents
+- Learns and improves using logged queries
+- Scalable and cost-effective (serverless)
+- Secure AWS-based integration
 
 ---
 
