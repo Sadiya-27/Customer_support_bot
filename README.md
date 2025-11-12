@@ -16,7 +16,7 @@ The frontend is hosted as a static web page on Amazon S3 for easy user interacti
 --- 
 
 ## 🏗️ Architecture
-User → Web UI (S3) → Amazon Lex → AWS Lambda → DynamoDB / SES
+<img width="1536" height="1024" alt="ChatGPT Image Nov 12, 2025, 02_54_34 PM" src="https://github.com/user-attachments/assets/8ae7b768-0ec2-4168-8e60-cbf413fcc9cf" />
 
 Flow:
 1. User sends a message on the web interface.
